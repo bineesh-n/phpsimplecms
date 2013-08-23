@@ -1,0 +1,154 @@
+/* 
+    Document   : content
+    Created on : Jul 20, 2013, 1:11:37 PM
+    Author     : Bineesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#content {
+    z-index: 10;
+    margin-left: 15%;
+    margin-right: 15%;    
+    background-color: #fff;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    min-height: 1500px;
+    height: auto;
+    box-shadow: 1px 1px 5px 1px #999;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#h-article {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    padding-bottom: 50px;
+}
+
+#ph-article {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+#h-arth {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#h-arta{
+    color: #aaa;
+    font-size: 12px;
+}
+
+.h-artp {
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    border: 1px solid #f00;
+}
+
+#h-artc {
+    
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 10px;
+    height: auto;
+    font-family: 'Times New Roman',Times,serif;
+}
+
+#art-act {
+    padding-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#art-hd {
+    font-size: 20px;
+    font-weight: bold;
+}
+#art-lst {
+    background-color: #ddd;
+    display: inline-block;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+
+#ctrls {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ctrl-button {
+    height: 100%;
+    width: 30px;
+    color: blue;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.ctrl-button {
+    height: 100%;
+    width: 30px;
+    color: blue;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#black {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba( 0,0,0,0.6);
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
+
+#warn {
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: 80px;
+    width: 380px;
+    border: 4px solid #fff;
+    background: #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 19px 1px #000;
+}
+
+.warn-img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+}
+
+#msg {
+    float: left;
+    line-height: 80px;
+    font-weight: bold;
+    
+}

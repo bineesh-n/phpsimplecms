@@ -1,0 +1,137 @@
+/* 
+    Document   : header-content
+    Created on : Jul 19, 2013, 9:24:12 PM
+    Author     : Bineesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#page {
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(../../images/pattern.png);
+    min-width: 1074px;
+}
+
+#head {
+    z-index: 100;
+    background: -webkit-linear-gradient(top, #444, #555);
+    background:url('/nss/images/header_nss_gecskp.png');
+    background-size: cover;
+    height: 160px;
+    border-bottom: 4px solid #066539;
+}
+
+.logo {
+    margin-left: 9%;
+    padding-top: 20px;
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+}
+
+#title {
+    display: inline-block;
+    font-family: 'Times New Roman',Times,serif;
+    height: 100px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    vertical-align: top;
+    margin-top: 40px;
+    text-shadow: 1px 1px 10px #05470a;
+}
+
+#menu {
+    z-index: 100;
+    height: 35px;
+    background: green;
+    border-bottom: 4px solid #066539;
+}
+
+.menu-items {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #008e00;
+    background: url('/nss/images/menu_header.gif');
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-items:hover{
+	color: black;
+	box-shadow: inset 1px 1px 50px 5px #009F55;
+	text-shadow: 0px 1px 1px #00DFAA;
+}
+
+.dropdown {
+    position: inherit;
+    display: none;
+    z-index: 91;
+    top: 202px;
+    height: auto;
+    width: 100%;
+    background-color: #ddd;
+    border-bottom: 2px solid green;
+    font-family: 'Times New Roman',Times,serif;
+}
+
+#dr-h {
+    width:32.9%;
+    height: 43px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: hidden;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid #ddd;
+    margin-bottom: 2px;
+}
+
+#dr-hc {
+    width:32.9%;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: hidden;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid #ddd;
+    margin-bottom: 2px;
+}
+
+#dr-hd {
+    color: forestgreen;
+    font-size: 15px;
+    
+}
+
+#dr-h:hover{
+    background-color: #ccc;
+    border: 1px solid #eee;
+}
+#dr-ht{
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
+#dr-hs {
+    color: #999;
+    font-size: 12px;
+}
+
+#login-notify {
+    right: 5px;
+    position: absolute;
+    top: 0px;
+    font-size: 15px;
+    color: #fff;
+}
+

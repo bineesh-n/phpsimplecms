@@ -1,0 +1,62 @@
+/* 
+    Document   : footer-content
+    Created on : Jul 20, 2013, 1:29:05 PM
+    Author     : Bineesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#footer {
+    height: 200px;
+    background: url('images/lines.jpg');
+    border-bottom: 4px solid #000;
+    border-top: 4px solid #bbb;
+}
+
+.f-img {
+    display: inline-block;
+    margin-left: 14%;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#fdesh {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+#services {
+    vertical-align: top;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+
+.fbi {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+}
+
+.twi {
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 7px;
+    border: 0px;
+}
+
+iframe {
+    width: 450px;
+    height: 35px;
+    border :0px solid #fff;
+}
