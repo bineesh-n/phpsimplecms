@@ -14,4 +14,4 @@ Installing project:
 
 ----------------------------------------------------------------------------------------
 
-I applied some security methods to protect project from hackers.
+I applied some security methods to protect server from hackers.
